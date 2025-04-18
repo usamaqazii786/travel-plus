@@ -1,0 +1,10 @@
+export const currency = '$';
+export const currentYear = new Date().getFullYear();
+export const developedByLink = 'https://hnhtechsolutions.com/';
+export const developedBy = 'HNH';
+export const contactUs = 'support@hnhtechsolutions.com';
+export const buyLink = '';
+export const basePath = '';
+// export const DEFAULT_PAGE_TITLE = 'Travel+ Next | Admin & Dashboard Template';
+export const DEFAULT_PAGE_TITLE = 'Travel+ | Admin';
+export const colorVariants = ['primary', 'secondary', 'success', 'warning', 'info', 'danger', 'dark', 'light'];

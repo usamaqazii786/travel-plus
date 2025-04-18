@@ -1,0 +1,74 @@
+.container-fluid {
+    font-size: 12.5px;
+    color: black;
+}
+
+.w_nine {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.first {
+    border-bottom: 4px solid black;
+}
+
+.border_right {
+    border-right: 4px solid black;
+    padding: 0;
+}
+
+.middle-header {
+    font-size: 25px;
+    font-weight: 900;
+    display: flex;
+    line-height: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.fw-bold {
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.header-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 0 8px;
+    margin-bottom: 0;
+}
+
+.request {
+    margin-bottom: 0;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* 
+    .requests{
+        text-align: center;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 0px;
+    } */
+
+.input-s {
+    text-align: center;
+    font-weight: 900;
+}
+
+.nav-tabs .nav-link.active {
+    border-bottom: none !important;
+}

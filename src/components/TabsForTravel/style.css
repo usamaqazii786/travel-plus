@@ -1,0 +1,26 @@
+@media only screen and (min-width: 600px) {
+  .button-align {
+    position: relative !important;
+    top: 70px !important;
+    margin-bottom: 6px !important;
+  }
+  
+}
+@media only screen and (max-width: 600px) {
+ .margin-12{
+    margin-top: 10px !important;
+ }
+  .button-plus{
+    height: 40px !important;
+    margin-top: 10px !important;
+  }
+  .width-full{
+    width: 270px;
+  }
+  .newclass{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}

@@ -1,0 +1,16 @@
+.flatpickr-day.selected{
+    background-color: #3d4d82 !important;
+}
+.flatpickr-months{
+    background-color: #3d4d82 !important;
+}
+.flatpickr-current-month .flatpickr-monthDropdown-months:hover {
+    color: white !important;
+}
+.numInputWrapper:hover{
+    color: white  !important;
+}
+.flatpickr-current-month .flatpickr-monthDropdown-months .flatpickr-monthDropdown-month{
+    background-color: black !important;
+    color: white !important;
+}

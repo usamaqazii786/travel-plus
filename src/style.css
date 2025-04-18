@@ -1,0 +1,120 @@
+@media only screen and (max-width: 600px) {
+  .dashboard_filter_button {
+    margin-top: 0px;
+    width: 150px;
+  }
+  .custombutton {
+    display: flex;
+
+    /* justify-content: start; */
+    gap: 10px;
+    /* width: 100px; */
+  }
+  .width-fulls {
+    width: 100%;
+  }
+  .rounded-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #343a40;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .dashboard_filter_button {
+    margin-top: 33px !important;
+  }
+  .custombutton {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .width-fulls {
+    width: 50%;
+  }
+
+  .rounded-circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #343a40;
+  }
+}
+
+.loader-splash {
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  position: absolute;
+  inset: 50% 0% 0% 50%;
+  padding: 3px;
+  background:
+    radial-gradient(farthest-side, #ffa516 95%, #0000) 50% 0/12px 12px no-repeat,
+    radial-gradient(farthest-side, #0000 calc(100% - 5px), #ffa516 calc(100% - 4px)) content-box;
+  animation: l6 2s infinite;
+}
+
+@keyframes l6 {
+  to {
+    transform: rotate(1turn);
+  }
+}
+.cursor {
+  cursor: pointer !important;
+}
+.file-input {
+  position: absolute;
+  left: 1px;
+  cursor: pointer;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.active > .page-link {
+  background-color: var(--color-primary) !important;
+  border-color: #333547 !important;
+  color: gray !important;
+}
+.form-control:focus {
+  border-color: #333547 !important;
+}
+.inline-button {
+  position: relative;
+  top: 60px;
+}
+.inline-button-save {
+  position: relative !important;
+  bottom: 90px !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .new {
+    width: 212px !important;
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+.text-welcome {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+}
